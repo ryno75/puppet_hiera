@@ -1,0 +1,16 @@
+---
+:backends:
+  - eyaml
+:hierarchy:
+  # acting as an ENC of sorts
+  - "nodes/%{clientcert}"
+  - "osfam/%{osfamily}"
+  - "%{kernel}"
+  - common
+
+:eyaml:
+  :datadir: '/etc/puppetlabs/code/hiera/%{environment}/hieradata'
+  :pkcs7_private_key: '/etc/puppetlabs/puppet/keys/private_key.pkcs7.pem'
+  :pkcs7_public_key: '/etc/puppetlabs/puppet/keys/public_key.pkcs7.pem'
+  :extension: 'yaml'
+
