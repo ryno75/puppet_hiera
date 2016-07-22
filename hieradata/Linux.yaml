@@ -9,21 +9,24 @@ users::gid_min: 1000
 users::user_hash:
   ameng:
     comment: Alex B Meng
-    groups: wheel
+    groups:
+      - wheel
     ssh_authorized_keys:
       alexbmeng@gmail.com:
         type: ssh-rsa
         key: AAAAB3NzaC1yc2EAAAADAQABAAABAQDMqR89cqOeF3ZnNlt1P4Eouf6U9ub1+3PNfg1yy6YWnvccoN61R5O+FXIKZmoWPZ6OcYvF4ihgnaJVc3++dQbK/E16aXs5vzDnB026zqBVh3vW2J0QXr247XI43rqZzTaSuqyV6aJxiAx3CGnwgVhQJyl/D7r78yLzxZ8h20Fxbt1BHvr2Gd8tNVjOf6FpmXqcOLLnGkBBaC7fsurLrErapFB""reLIz703YUeYDfdKc7I3SU1iKgQN0UPh5TeTGAIeO20fgmQ2kFCJP2mXXoJ4tBj7ItRVsiFlqUemKr13yQ9QAfSredHeQln0kyd21L2J2EFfubG/V0vZYKQqDdSN7
   jsullivan:
     comment: Charles Sullivan
-    groups: wheel
+    groups:
+      - wheel
     ssh_authorized_keys:
       csullivan@Charless-MacBook-Pro.local:
         type: ssh-rsa
         key: AAAAB3NzaC1yc2EAAAADAQABAAABAQC169BIxvsWQMlmQ3HaPMYTzwl5/wMb8Rt+UB3ZXEoQspoeKau6F5FAQR17MGB86/dakRwgphet5zsk+wvhErB7dUIF2+e40sWcdgrMiVgO/ndM4CtJU04QXnGoSbIi7LcKseCLjT54uaqHMJRIYIf/iiXisnMPHWAStEqxvJBTeHNe1BnfjzVP9nZCq99fLbJ+N64P9lQnuzhFEFfZ+ggJVFaVsqNhYuf1h4kuJG3TJAQyOBDO2b4bbw8Eq2Rl4UVTZ2cH6WGA/NxEOwAi1q0z2O92F8jmvpcNKAi5M0azsvCtqrMk2n8w9BTkjyx6On+F6rKHjoBm1Wf5JBDqGABh 
   rkennedy:
     comment: Ryan Kennedy
-    groups: wheel
+    groups:
+      - wheel
     ssh_authorized_keys:
       rkennedy@mcgooglesoft.com:
         type: ssh-rsa
