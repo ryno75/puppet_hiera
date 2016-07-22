@@ -2,7 +2,7 @@
 classes:
   - roles::base::linux
  
-motd::template: profiles/linux/motd.erb
+motd::template: profiles/base/linux/motd.erb
 
 users::uid_min: 1000
 users::gid_min: 1000
