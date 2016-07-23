@@ -11,7 +11,8 @@ users::user_hash:
     comment: Alex B Meng
     groups:
       - devops
-    sudo_commands: ALL
+    sudo_commands:
+      - ALL
     ssh_authorized_keys:
       alexbmeng@gmail.com:
         type: ssh-rsa
@@ -20,7 +21,9 @@ users::user_hash:
     comment: Charles Sullivan
     groups:
       - devops
-    sudo_commands: ALL
+    sudo_commands:
+      - ALL
+    ssh_authorized_keys:
     ssh_authorized_keys:
       csullivan@Charless-MacBook-Pro.local:
         type: ssh-rsa
@@ -29,7 +32,8 @@ users::user_hash:
     comment: Ryan Kennedy
     groups:
       - devops
-    sudo_commands: ALL
+    sudo_commands:
+      - ALL
     ssh_authorized_keys:
       rkennedy@mcgooglesoft.com:
         type: ssh-rsa
