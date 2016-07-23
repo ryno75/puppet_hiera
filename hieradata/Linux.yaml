@@ -41,4 +41,4 @@ users::user_hash:
 
 users::group_hash:
   devops:
-  webdevs:
+    ensure: present
