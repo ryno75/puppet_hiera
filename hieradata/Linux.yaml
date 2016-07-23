@@ -15,7 +15,7 @@ users::user_hash:
       alexbmeng@gmail.com:
         type: ssh-rsa
         key: AAAAB3NzaC1yc2EAAAADAQABAAABAQDMqR89cqOeF3ZnNlt1P4Eouf6U9ub1+3PNfg1yy6YWnvccoN61R5O+FXIKZmoWPZ6OcYvF4ihgnaJVc3++dQbK/E16aXs5vzDnB026zqBVh3vW2J0QXr247XI43rqZzTaSuqyV6aJxiAx3CGnwgVhQJyl/D7r78yLzxZ8h20Fxbt1BHvr2Gd8tNVjOf6FpmXqcOLLnGkBBaC7fsurLrErapFB""reLIz703YUeYDfdKc7I3SU1iKgQN0UPh5TeTGAIeO20fgmQ2kFCJP2mXXoJ4tBj7ItRVsiFlqUemKr13yQ9QAfSredHeQln0kyd21L2J2EFfubG/V0vZYKQqDdSN7
-  jsullivan:
+  csullivan:
     comment: Charles Sullivan
     groups:
       - wheel
