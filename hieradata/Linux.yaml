@@ -10,7 +10,8 @@ users::user_hash:
   ameng:
     comment: Alex B Meng
     groups:
-      - wheel
+      - devops
+    sudo_commands: ALL
     ssh_authorized_keys:
       alexbmeng@gmail.com:
         type: ssh-rsa
@@ -18,7 +19,8 @@ users::user_hash:
   csullivan:
     comment: Charles Sullivan
     groups:
-      - wheel
+      - devops
+    sudo_commands: ALL
     ssh_authorized_keys:
       csullivan@Charless-MacBook-Pro.local:
         type: ssh-rsa
@@ -26,8 +28,13 @@ users::user_hash:
   rkennedy:
     comment: Ryan Kennedy
     groups:
-      - wheel
+      - devops
+    sudo_commands: ALL
     ssh_authorized_keys:
       rkennedy@mcgooglesoft.com:
         type: ssh-rsa
         key: AAAAB3NzaC1yc2EAAAADAQABAAACAQDU6BGuRr3FmGAClDTP+aQIgEGULRFpQH1V8HQi8V1p+/929Hi3+YWK9f6HTtx4t92GJupXR0TQYOXj/o9SC4uQv2fu7GqKO8Yui/hVjrBLA73PdHQDR8/+3Tq4JXAZJGGVjsrmg+PTHrpdjHdvlyH1Kc5d+zatCcOg9FQSfpZ+SYGxfHTsSLLbLCl3nZUH6MtrkBaidB+KfitV5mxXE8/yksT7kE7cX2qyRD6rO3a4mSKYBdfX60vZCbQz1CSKSbVxK2QL3MBJyCMzt5A7ka5MZJ3yiLyJ93kKaN77B3neVvpXOmUxbyyj1BtKENdUM+MNh5A9lKHmXFsw7KzqoarszkTZpmR7JPgQGTKnDiixqAOrs7YrwSxb6srSKxaljtSEX95LCNs4mM2iJKPchwxuoZkH/rBDGjmkUuJQCjdZKLtd6cqK2G1a1emMDUw+993KwVaco87NibuHCuWyting2nEJ8RFTlZmJDGTzNSIUxT0xtomFUCV1VQAeW5e6wjuBWFKzI31BCOc5HlHB9fLh/Y7UMuOUL4rujQ68R+WRX9wHke8X23Ond6L3zQHkJOSqMe1pCx3DJ1BuH/+d76g6KE+7P7nIPVsI5gRr0ca5W5XZKM+xPE+yio+k4/fS4gnjNDyt5IKDrc3wLNbecDKhAl5+pS0XOSWK1/NWWaz+zw==
+
+users::group_hash:
+  devops:
+  webdevs:
