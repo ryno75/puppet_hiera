@@ -32,4 +32,4 @@ tomcat::use_init: true
 # group mgmt
 users::group_hash:
   webdevs:
-    ensure: present
+    gid: 1001
