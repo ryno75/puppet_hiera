@@ -28,3 +28,6 @@ tomcat::instance::package_name: tomcat7
 tomcat::service::service_name: tomcat7
 tomcat::service::use_init: true
 tomcat::service::use_jsvc: false
+tomcat::config::server::connector::additional_attributes:
+  proxyPort: 443
+  scheme: https
