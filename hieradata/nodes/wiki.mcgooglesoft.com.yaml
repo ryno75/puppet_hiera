@@ -28,3 +28,8 @@ tomcat::service_name: tomcat7
 tomcat::catalina_home: /usr/share/tomcat7
 tomcat::use_jsvc: false
 tomcat::use_init: true
+
+# group mgmt
+users::group_hash:
+  webdevs:
+    gid: 1001
