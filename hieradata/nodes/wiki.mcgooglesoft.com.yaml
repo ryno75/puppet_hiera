@@ -22,7 +22,7 @@ nginx::resource::vhost::listen_port: 80
 nginx::resource::vhost::proxy: http://localhost:8080
 
 # puppetlabs tomcat module parms
-tomcat::instance::name: tomcat7
+profiles::wiki::tomcat_instance: tomcat7
 tomcat::instance::catalina_home: /usr/share/tomcat7
 tomcat::instance::install_from_source: false
 tomcat::instance::manage_service: true
