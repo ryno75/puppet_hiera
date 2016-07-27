@@ -13,6 +13,7 @@ jamwiki::config_hash:
 jamwiki::create_root_symlink: true
 jamwiki::classpath: /usr/share/tomcat7/lib
 jamwiki::db_connector_url: https://s3-us-west-2.amazonaws.com/puppet-depot/src/mysql-connector-java-5.1.39-bin.jar
+jamwiki::db_hostname: wikidb.mcgooglesoft.com
 jamwiki::db_password_raw: ENC[PKCS7,MIIBeQYJKoZIhvcNAQcDoIIBajCCAWYCAQAxggEhMIIBHQIBADAFMAACAQEwDQYJKoZIhvcNAQEBBQAEggEACsanoTNhRPqgpjV53XskMSVq40FJDzti6JnTK+snKriLkuOnBH7gT0Tbm3JAWNk1LOG0tJzsS/n00NkGZz7vRPHZFfeKi494ey7FYKDbJk0w4cggqNTKEmDxRpO6R3L8iaQutoQu2Q21C7/QRehnhihU5W8r3Zk3yFAvT4dEuKNnFGb/qMjGEgdL0Sdm3//45ui9wGqwopKRvDI+4c/g90szkLJcLw1yIWR4IDRV1/kLmm8UM4/TSQFSHdw+q2HuhN1ypAQNC1XmwvNAXlpCPzFyBaed1XneQEL9N8qT4aveFaKlg2dn2w8Vog4j55mHwKoTlx2DK+lSoLTZs57D0jA8BgkqhkiG9w0BBwEwHQYJYIZIAWUDBAEqBBAm25QNBYTecXP7fc8Ss3pcgBAzLP4XDzJpaEZe+Eknos2M]
 jamwiki::db_type: mysql
 jamwiki::filesys_dir: /usr/local/share/jamwiki
